@@ -363,4 +363,11 @@ header > ul > li > a {
     .popular-section > .popular-grid {
         grid-template-columns: repeat(1, minmax(0, 100%));
     }
+    .feature-products {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto 100px;
+}
 }
